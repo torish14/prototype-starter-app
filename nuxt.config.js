@@ -51,6 +51,8 @@ export default {
     '@nuxtjs/pwa',
     // https://firebase.nuxtjs.org
     '@nuxtjs/firebase',
+    // https://github.com/nuxt-community/nuxt-logrocket
+    'nuxt-logrocket',
   ],
 
   'nuxt-compress': {
@@ -94,6 +96,15 @@ export default {
       analytics: {
         collectionEnabled: true,
       },
+    },
+  },
+
+  logRocket: {
+    // configure LogRocket
+    logRocketId: '',
+    devModeAllowed: false,
+    config: {
+      //
     },
   },
 
