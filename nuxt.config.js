@@ -53,6 +53,10 @@ export default {
     '@nuxtjs/firebase',
     // https://github.com/nuxt-community/nuxt-logrocket
     'nuxt-logrocket',
+    // https://github.com/nuxt-community/robots-module
+    '@nuxtjs/robots',
+    // https://sitemap.nuxtjs.org
+    '@nuxtjs/sitemap',
   ],
 
   'nuxt-compress': {
@@ -106,6 +110,14 @@ export default {
     config: {
       //
     },
+  },
+
+  robots: {
+    /* module options */
+  },
+
+  sitemap: {
+    // options
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
