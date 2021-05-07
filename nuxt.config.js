@@ -37,6 +37,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    'nuxt-typed-vuex',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     'nuxt-windicss',
@@ -103,5 +104,6 @@ export default {
     },
     devtools: true,
     extractCSS: true,
+    transpile: [/typed-vuex/],
   },
 }
