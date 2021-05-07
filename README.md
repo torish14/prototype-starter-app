@@ -1,4 +1,4 @@
-# 爆速でプロトタイプを開発する
+# Nuxt.js+TypeScript+Windi CSS+Firebase を使用して、爆速でプロトタイプを開発する
 
 ## Build Setup
 
