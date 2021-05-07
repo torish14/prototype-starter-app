@@ -41,6 +41,7 @@ export default {
     '@nuxtjs/stylelint-module',
     'nuxt-windicss',
     'nuxt-vite',
+    'nuxt-compress',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -50,6 +51,15 @@ export default {
     // https://firebase.nuxtjs.org
     '@nuxtjs/firebase',
   ],
+
+  'nuxt-compress': {
+    gzip: {
+      cache: true,
+    },
+    brotli: {
+      threshold: 10240,
+    },
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
