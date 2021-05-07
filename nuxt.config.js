@@ -40,7 +40,6 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     'nuxt-windicss',
-    'nuxt-vite',
     'nuxt-compress',
   ],
 
