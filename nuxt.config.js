@@ -1,5 +1,6 @@
 export default {
   srcDir: 'app',
+
   ssr: true,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -92,5 +93,6 @@ export default {
       plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
     devtools: true,
+    extractCSS: true,
   },
 }
