@@ -1,7 +1,7 @@
 {
   "name": "prototype-starter-app",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "analyze": "nuxt build --analyze",
     "dev": "nuxt",
