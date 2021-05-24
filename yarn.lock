@@ -7376,10 +7376,10 @@ nuxt-typed-vuex@^0.2.0:
     typed-vuex "0.2.0"
     upath "^2.0.1"
 
-nuxt-windicss@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-0.7.1.tgz#548e4a8571ba61a40b529a07029f4c1594aa4ed0"
-  integrity sha512-afGKiFtqhdYRLQfxLCcVaPASslVreOPHrxxYCTzLdzZ4dbx9d02TVSUG4zUjSpn0ZhtVd6mAIiuYfWuz3FdS1Q==
+nuxt-windicss@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-0.7.5.tgz#3b971b767073279116878d51815d27ed291e9ab0"
+  integrity sha512-RCDdNnmMZK+v2cU3I+gu99dNq8Ny9DPN6SCwbC552llitFH0ZVD867XQLrqaWVuKk7CLsRXBh1m9y9C1lHG9Hw==
   dependencies:
     clear-module "^4.1.1"
     defu "^4.0.1"
@@ -7387,7 +7387,7 @@ nuxt-windicss@^0.7.1:
     semver "^7.3.5"
     upath "^2.0.1"
     vite-plugin-windicss "^0.15.10"
-    windicss-webpack-plugin "^0.5.0"
+    windicss-webpack-plugin "^0.5.3"
 
 nuxt@^2.15.3:
   version "2.15.4"
@@ -10881,10 +10881,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-windicss-webpack-plugin@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.5.1.tgz#3ce2400794a2b5e22419e34dfc869ef65658ee14"
-  integrity sha512-im1fLXKcyplJdeJ0U4muF4Yfsw0A8YzlAI3NfoV+8kmk8vgiWjX+Ls19g+2X4FJhA6fGdAVZimgDEX3eKvBtkw==
+windicss-webpack-plugin@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.5.3.tgz#c071d0e447625fb96aad4a018b45db67b3c0c62d"
+  integrity sha512-YIODnX8wVc+vQO8YUf1+SgeYW3JJtmcU2THXlgLVSv2n5N7d5rvBychZIVueBMNyNFEhmn0O6rQSDlrhpYkxtg==
   dependencies:
     "@windicss/plugin-utils" "0.15.10"
     debug "^4.3.1"
