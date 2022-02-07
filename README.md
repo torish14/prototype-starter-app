@@ -18,6 +18,12 @@ $ pnpm start
 
 # generate static project
 $ pnpm generate
+
+# analyze
+$ pnpm analyze
+
+# linter
+$ pnpm lint
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
