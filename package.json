@@ -1,49 +1,11 @@
 {
-  "name": "prototype-starter-app",
-  "version": "1.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
-    "analyze": "nuxt build --analyze",
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style"
-  },
-  "dependencies": {
-    "@nuxtjs/firebase": "^8.2.0",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "core-js": "^3.19.1",
-    "firebase": "^8.10.0",
-    "nuxt": "^2.15.8",
-    "nuxt-jsonld": "^1.5.3",
-    "nuxt-logrocket": "^1.5.2",
-    "nuxt-typed-vuex": "^0.2.0"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/eslint-config-typescript": "^6.0.1",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/stylelint-module": "^4.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^3.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.2.0",
-    "nuxt-compress": "^5.0.0",
-    "nuxt-windicss": "^0.7.5",
-    "prettier": "^2.4.1",
-    "stylelint": "^13.13.1",
-    "nuxt-windicss": "^2.0.11",
-    "prettier": "^2.2.1",
-    "stylelint": "^14.2.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^24.0.0"
+    "nuxt3": "latest"
   }
 }
