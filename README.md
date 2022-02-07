@@ -1,4 +1,4 @@
-# Nuxt.js+TypeScript+Windi CSS+Firebase を使用して、爆速でプロトタイプを開発する
+# ⚡ Nuxt 3 + TypeScript + Windi CSS + Firebase 9 を使用して、爆速でプロトタイプを開発する
 
 ## Build Setup
 
