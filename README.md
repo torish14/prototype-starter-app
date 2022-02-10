@@ -4,26 +4,26 @@
 
 ```zsh
 # install dependencies
-$ pnpm install
+$ yarn install
 
 # add dependencies
-$ pnpm add <pkg>
+$ yarn add <pkg>
 
 # serve with hot reload at localhost:3000
-$ pnpm dev
+$ yarn dev -o
 
 # build for production and launch server
-$ pnpm build
-$ pnpm start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ pnpm generate
+$ yarn generate
 
 # analyze
-$ pnpm analyze
+$ yarn analyze
 
 # linter
-$ pnpm lint
+$ yarn lint
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
