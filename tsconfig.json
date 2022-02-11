@@ -4,7 +4,8 @@
 	"compilerOptions": {
 		"types": [
 			"nuxt-windicss",
-			"@nuxtjs/device"
+			"@nuxtjs/device",
+			"@pinia/nuxt"
 		]
 	}
 }
