@@ -3,9 +3,11 @@ import { defineNuxtConfig } from 'nuxt3'
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
-  modules: ['@nuxtjs/robots'],
+  modules: [
     '@nuxtjs/firebase',
     'nuxt-logrocket',
+    '@nuxtjs/sentry',
+  ],
   buildModules: [
     'nuxt-windicss',
     '@nuxtjs/device',
@@ -47,6 +49,15 @@ export default defineNuxtConfig({
     devModeAllowed: false,
     config: {
       //
+    },
+  },
+  sentry: {
+    dsn: '', // Enter your project's DSN here
+    // Additional Module Options go here
+    // https://sentry.nuxtjs.org/sentry/options
+    config: {
+      // Add native Sentry config here
+      // https://docs.sentry.io/platforms/javascript/guides/vue/configuration/options/
     },
   },
   typescript: {
