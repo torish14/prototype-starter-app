@@ -3,11 +3,19 @@
   "extends": "./.nuxt/tsconfig.json",
 	"compilerOptions": {
 		"types": [
+			"node",
 			"nuxt-windicss",
 			"@nuxtjs/device",
-			"@pinia/nuxt"
+			"@pinia/nuxt",
 			"@nuxtjs/firebase",
 			"nuxt-logrocket",
+			"@nuxtjs/sentry"
 		]
-	}
+	},
+	"exclude": [
+    "**/*/dist/*",
+    "**/.nuxt/**",
+    "**/nuxt.d.ts",
+		"node_modules"
+  ]
 }
