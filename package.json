@@ -21,6 +21,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "@pinia/nuxt": "^0.1.8",
     "firebase": "^9.6.6",
+    "npm-package-json-lint": "^5.4.2",
     "nuxt-logrocket": "^1.5.2",
     "pinia": "^2.0.11"
   }
