@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   ssr: true,
   modules: [
     '@nuxtjs/firebase',
+    '@nuxtjs/robots',
     'nuxt-logrocket',
     '@nuxtjs/sentry',
   ],
@@ -42,6 +43,10 @@ export default defineNuxtConfig({
       analytics: true,
       remoteConfig: true,
     },
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '/',
   },
   logRocket: {
     // configure LogRocket
