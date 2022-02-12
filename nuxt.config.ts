@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     '@nuxtjs/pwa',
     '@pinia/nuxt',
   ],
+  plugins: ['~/plugins/jsonld'],
   windicss: {
     analyze: true,
   },
