@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/firebase',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
     'nuxt-logrocket',
     '@nuxtjs/sentry',
   ],
@@ -47,6 +48,21 @@ export default defineNuxtConfig({
   robots: {
     UserAgent: '*',
     Disallow: '/',
+  },
+  sitemap: {
+    hostname: 'https://example.com',
+    gzip: true,
+    exclude: ['/secret', '/admin/**'],
+    routes: [
+      '/page/1',
+      '/page/2',
+      {
+        url: '/page/3',
+        changefreq: 'daily',
+        priority: 1,
+        lastmod: '2017-06-30T13:30:00.000Z',
+      },
+    ],
   },
   logRocket: {
     // configure LogRocket
