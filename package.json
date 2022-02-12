@@ -19,6 +19,7 @@
     "@nuxtjs/robots": "^2.5.0",
     "@pinia/nuxt": "^0.1.8",
     "firebase": "^9.6.6",
+    "nuxt-logrocket": "^1.5.2",
     "pinia": "^2.0.11"
   }
 }

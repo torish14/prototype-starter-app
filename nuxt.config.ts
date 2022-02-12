@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   ssr: true,
   modules: ['@nuxtjs/robots'],
     '@nuxtjs/firebase',
+    'nuxt-logrocket',
   buildModules: [
     'nuxt-windicss',
     '@nuxtjs/device',
@@ -38,6 +39,14 @@ export default defineNuxtConfig({
       performance: true,
       analytics: true,
       remoteConfig: true,
+    },
+  },
+  logRocket: {
+    // configure LogRocket
+    logRocketId: '',
+    devModeAllowed: false,
+    config: {
+      //
     },
   },
   typescript: {
