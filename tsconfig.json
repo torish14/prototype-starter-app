@@ -6,6 +6,7 @@
 			"nuxt-windicss",
 			"@nuxtjs/device",
 			"@pinia/nuxt"
+			"@nuxtjs/firebase",
 		]
 	}
 }

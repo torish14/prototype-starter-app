@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
   ssr: true,
   modules: ['@nuxtjs/robots'],
+    '@nuxtjs/firebase',
   buildModules: [
     'nuxt-windicss',
     '@nuxtjs/device',
@@ -12,6 +13,32 @@ export default defineNuxtConfig({
   ],
   windicss: {
     analyze: true,
+  },
+  firebase: {
+    lazy: false,
+    config: {
+      apiKey: '<apiKey>',
+      authDomain: '<authDomain>',
+      projectId: '<projectId>',
+      storageBucket: '<storageBucket>',
+      messagingSenderId: '<messagingSenderId>',
+      appId: '<appId>',
+      measurementId: '<measurementId>',
+    },
+    onFirebaseHosting: false,
+    services: {
+      auth: {
+        ssr: true,
+      },
+      firestore: true,
+      functions: true,
+      storage: true,
+      database: true,
+      messaging: true,
+      performance: true,
+      analytics: true,
+      remoteConfig: true,
+    },
   },
   typescript: {
     strict: true,

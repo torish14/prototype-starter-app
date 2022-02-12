@@ -12,6 +12,7 @@
     "nuxt3": "latest"
   },
   "dependencies": {
+    "@nuxtjs/firebase": "^8.2.2",
     "@nuxtjs/robots": "^2.5.0",
     "@pinia/nuxt": "^0.1.8",
     "firebase": "^9.6.6",
