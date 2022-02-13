@@ -6,6 +6,8 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "lint": "nuxi lint",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install",
     "start": "node .output/server/index.mjs"
   },
   "husky": {
@@ -44,7 +46,7 @@
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.18.0",
     "firebase-functions-test": "^0.3.3",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "lint-staged": "^12.3.4",
     "npm-package-json-lint": "^5.4.2",
     "nuxt-windicss": "^2.2.4",
