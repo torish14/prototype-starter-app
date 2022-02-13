@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt3';
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxtjs/device',
     '@nuxtjs/pwa',
     '@pinia/nuxt',
+    '@vueuse/nuxt',
   ],
   plugins: ['~/plugins/jsonld'],
   windicss: {
@@ -82,7 +83,10 @@ export default defineNuxtConfig({
       // https://docs.sentry.io/platforms/javascript/guides/vue/configuration/options/
     },
   },
+  vueuse: {
+    ssrHandlers: true,
+  },
   typescript: {
     strict: true,
   },
-})
+});
