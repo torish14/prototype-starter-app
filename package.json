@@ -17,8 +17,8 @@
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
-      "nuxi lint",
-      "git add"
+      "npx eslint . --fix",
+      "npx prettier --write ."
     ]
   },
   "dependencies": {
