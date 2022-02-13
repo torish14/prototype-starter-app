@@ -17,7 +17,7 @@
   "plugins": [
     "vue",
     "@typescript-eslint",
-    "@typescript-eslint/eslit-plugin"
+    "@typescript-eslint/eslint-plugin"
   ],
   "rules": {
     "no-unused-vars": "off"
