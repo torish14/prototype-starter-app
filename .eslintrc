@@ -17,8 +17,19 @@
   "plugins": [
     "vue",
     "@typescript-eslint",
-    "@typescript-eslint/eslint-plugin"
+    "@typescript-eslint/eslint-plugin",
+    "import"
   ],
+  "settings": {
+    "import/parser": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  },
   "rules": {
     "no-unused-vars": "off"
   }
