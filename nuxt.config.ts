@@ -1,8 +1,11 @@
-import { defineNuxtConfig } from 'nuxt3';
+import { defineNuxtConfig } from 'nuxt3'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
+  cli: {
+    badgeMessages: ['待たせたな。'],
+  },
   modules: [
     '@nuxtjs/firebase',
     '@nuxtjs/robots',
@@ -89,4 +92,4 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-});
+})
