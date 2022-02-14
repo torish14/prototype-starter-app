@@ -5,6 +5,7 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
+    "postinstall": "patch-package",
     "lint": "nuxi lint",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
@@ -31,7 +32,9 @@
     "firebase": "^9.6.6",
     "nuxt-jsonld": "^1.5.3",
     "nuxt-logrocket": "^1.5.2",
-    "pinia": "^2.0.11"
+    "patch-package": "^6.4.7",
+    "pinia": "^2.0.11",
+    "postinstall-postinstall": "^2.1.0"
   },
   "devDependencies": {
     "@nuxtjs/device": "^2.1.0",
