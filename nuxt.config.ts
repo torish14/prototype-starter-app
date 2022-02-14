@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     'nuxt-logrocket',
     '@nuxtjs/sentry',
     '@nuxt/image',
+    'nuxt-speedkit',
   ],
   buildModules: [
     'nuxt-windicss',
@@ -89,6 +90,23 @@ export default defineNuxtConfig({
   },
   vueuse: {
     ssrHandlers: true,
+  },
+  speedkit: {
+    detection: {
+      performance: true,
+      browserSupport: true,
+    },
+    performanceMetrics: {
+      device: {
+        hardwareConcurrency: { min: 2, max: 48 },
+        deviceMemory: { min: 2 },
+      },
+      timing: {
+        fcp: 800,
+        dcl: 1200,
+      },
+      lighthouseDetectionByUserAgent: false,
+    },
   },
   typescript: {
     strict: true,

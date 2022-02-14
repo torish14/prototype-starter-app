@@ -10,7 +10,7 @@
       "@nuxtjs/firebase",
       "nuxt-logrocket",
       "@nuxtjs/sentry",
-			"@nuxt/image"
+      "@nuxt/image"
     ]
   },
   "exclude": [
