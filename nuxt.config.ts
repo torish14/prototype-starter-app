@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sentry',
     '@nuxt/image',
     'nuxt-speedkit',
+    '@nuxtjs/gtm',
   ],
   buildModules: [
     'nuxt-windicss',
@@ -107,6 +108,9 @@ export default defineNuxtConfig({
       },
       lighthouseDetectionByUserAgent: false,
     },
+  },
+  gtm: {
+    id: 'GTM-XXXXXXX',
   },
   typescript: {
     strict: true,
