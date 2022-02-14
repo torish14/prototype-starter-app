@@ -37,6 +37,7 @@
     "postinstall-postinstall": "^2.1.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.6.1",
     "@nuxtjs/device": "^2.1.0",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",

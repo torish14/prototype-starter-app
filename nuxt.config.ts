@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'nuxt-logrocket',
     '@nuxtjs/sentry',
+    '@nuxt/image',
   ],
   buildModules: [
     'nuxt-windicss',
