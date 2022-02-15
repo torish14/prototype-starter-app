@@ -114,6 +114,7 @@ export default defineNuxtConfig({
     id: 'GTM-XXXXXXX',
   },
   dotenv: {},
+  storybook: {},
   typescript: {
     strict: true,
   },
