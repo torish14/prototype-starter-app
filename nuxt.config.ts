@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     '@nuxtjs/pwa',
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    '@nuxtjs/dotenv',
   ],
   plugins: ['~/plugins/jsonld'],
   windicss: {
@@ -112,6 +113,7 @@ export default defineNuxtConfig({
   gtm: {
     id: 'GTM-XXXXXXX',
   },
+  dotenv: {},
   typescript: {
     strict: true,
   },
