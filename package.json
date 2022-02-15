@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "@nuxtjs/firebase": "^8.2.2",
-    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sentry": "^5.1.7",
     "@nuxtjs/sitemap": "^2.4.0",
