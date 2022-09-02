@@ -28,7 +28,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "@pinia/nuxt": "^0.1.8",
     "@vueuse/nuxt": "^7.6.2",
-    "firebase": "^9.6.6",
+    "firebase": "^9.9.4",
     "nuxt-jsonld": "^1.5.3",
     "nuxt-logrocket": "^1.5.2",
     "pinia": "^2.0.11"
